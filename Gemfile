@@ -38,12 +38,15 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
+  # gem 'redgreen'
+  # gem 'test-unit'
 end
 
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-  gem 'guard-minitest'
+  gem 'guard-minitest', '2.3.1'
+  # gem 'turn'
 end
 
 group :production do
